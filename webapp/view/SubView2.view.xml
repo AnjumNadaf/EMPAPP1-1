@@ -1,0 +1,4 @@
+<mvc:View controllerName="eventbus.controller.SubView2" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" >
+<Label text="Sub View 2"></Label>
+<Button text=" Button SubView 2" press="onButtonPress"></Button>
+</mvc:View>

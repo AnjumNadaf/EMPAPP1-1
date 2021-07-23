@@ -1,0 +1,21 @@
+<mvc:View
+    controllerName="eventbus.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					<Label text="Main View"></Label>
+					<Button text="Main View Button" press="onShowPopUp"></Button>
+					<mvc:XMLView viewName="eventbus.view.SubView1" type="XML"></mvc:XMLView>
+					<mvc:XMLView viewName="eventbus.view.SubView2" type="XML"></mvc:XMLView>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
